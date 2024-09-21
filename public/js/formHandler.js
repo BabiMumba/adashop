@@ -23,6 +23,7 @@ form.addEventListener('submit', function (e) {
         images: images
     }).then(() => {
         alert('Article enregistré avec succès !');
+        console.log('Article enregistré avec succès !:', nomArticle, prix, quantite, images);
         form.reset();  // Réinitialiser le formulaire après soumission
     }).catch((error) => {
         console.error("Erreur lors de l'enregistrement :", error);

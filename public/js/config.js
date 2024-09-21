@@ -4,7 +4,7 @@ import { getDatabase, ref, push, set } from 'https://www.gstatic.com/firebasejs/
 
 
 export const firebaseConfig = {
-    apiKey: "AIzaSyCe3o6n7IB9_NUCKTlzluYaATZewbsnnQ0",
+    apiKey: "votre code API",
     authDomain: "alison-243.firebaseapp.com",
     databaseURL: "https://alison-243-default-rtdb.firebaseio.com",
     projectId: "alison-243",
