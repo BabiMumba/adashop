@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'article avec Firebase</title>
+    <link rel="stylesheet" href="css/ajouter.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Ajouter un Article</h2>
+        <form id="articleForm">
+            <div class="form-group">
+                <label for="nomArticle">Nom de l'article</label>
+                <input type="text" id="nomArticle" name="nomArticle" placeholder="Entrez le nom de l'article" required>
+            </div>
+
+            <div class="form-group">
+                <label for="prix">Prix</label>
+                <input type="number" id="prix" name="prix" placeholder="Entrez le prix" required>
+            </div>
+
+            <div class="form-group">
+                <label for="quantite">Quantité</label>
+                <input type="number" id="quantite" name="quantite" placeholder="Entrez la quantité" required>
+            </div>
+
+            <div class="form-group">
+                <label for="images">Images</label>
+                <input type="text" id="images" name="images" placeholder="Entrez l'URL des images" required>
+            </div>
+
+            <button type="submit" class="btn">Enregistrer</button>
+        </form>
+    </div>
+
+    <!-- Inclure les scripts -->
+    <script type="module" src="js/config.js"></script>
+    <script type="module" src="js/formHandler.js"></script>
+</body>
+</html>
