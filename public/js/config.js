@@ -21,4 +21,4 @@ const app = initializeApp(firebaseConfig);
 const database = getDatabase(app);
 
 
-export { database, ref, push, set };
+export { database, ref, push, set };CAMTASIA_21_ASSET_FORMAT*C:\ProgramData\TechSmith\Camtasia Studio 21\Library 4.0\Camtasia Libraries\Camtasia 2021\Pistes de musique\technicolordreams.asset\technicolordreams.assetproj|atAudio
